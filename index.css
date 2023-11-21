@@ -90,6 +90,10 @@ header a:hover{
     color: #FB835D;
 }
 
+.justificado{
+    text-align: justify;
+}
+
 #hero{
     display: flex;
     align-items: center;
@@ -103,7 +107,7 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("media/Fondo.jpg");
+    ,url("media/fondo.PNG");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
