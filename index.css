@@ -196,7 +196,7 @@ header a:hover{
 }
 
 footer{
-    background-color: rgb(230,230,230);
+    background-color: rgb(30,30,30);
 }
 
 footer p{
@@ -210,6 +210,33 @@ footer .container{
     display: flex;
     justify-content: center;
     align-items: flex-end;
+}
+
+.linkdes {
+    position: relative;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+    color: #a0a0a0;
+    font-size: 25px;
+    letter-spacing: 0.5px;
+    padding: 0 10px;
+}
+
+.linkdes:after{
+    content: "";
+    position: absolute;
+    background-color: #ff3c78;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+.linkdes:hover{
+    color: #ffffff;
+}
+.linkdes:hover:after{
+    width: 100%;
 }
 
 @media (min-width: 850px){
